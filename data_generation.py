@@ -4,7 +4,7 @@ import random
 
 random.seed(42)
 
-Source = ["Instagram", "Telegram", "Facebook", "Friend/Relative"]
+Source = ["Instagram", "Telegram", "Facebook", "Friend/Relative"] 
 Status = ["Won", "Lost", "In Progress"]
 
 deals= []
