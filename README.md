@@ -103,7 +103,3 @@ All models score close to 33-38%. This is **expected**: the synthetic data is ge
 - The ML split and models use `random_state=42`.
 - `data_generation.py` uses `random.seed(42)` for fully reproducible runs.
 - The database connection string is read from the `DATABASE_URL` environment variable; credentials are never committed.
-
-## AI tools used
-
-- Claude (Anthropic): used to help draft this README.
