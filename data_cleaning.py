@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 df = pd.read_csv("deals.csv")
-customers = pd.read_csv("customers.csv")
+customers = pd.read_csv("customers.csv") 
 
 deals = df.copy()
 def EDA(deals : pd.DataFrame) -> pd.DataFrame:
