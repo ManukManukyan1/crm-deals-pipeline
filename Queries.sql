@@ -5,7 +5,7 @@ GROUP BY d.source
 ORDER BY successful_deals DESC;
  
 SELECT d.customer_id,COUNT(*) AS total_deals,SUM(amount) AS total_revenue,
-		AVG(amount) AS average_deal_amount
+		AVG(amount) AS average_deal_amount 
 FROM deals d
 WHERE status = 'won'
 GROUP BY d.customer_id
